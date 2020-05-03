@@ -4,12 +4,14 @@ import {connect} from "react-redux";
 
 const TodoAppList = ({todos}) => {
     return (
-        <div>
+        <div class="row">
+        <div style={{backgroundColor:"#fff",height:"30px",width:"310px",margin:"auto",padding:"10px",borderRadius:"10px"}}>
             {
                 todos.map((todo) => {
                     return <TodoAppListItem {...todo} />
                 })
             }
+        </div>
         </div>
     );
 };

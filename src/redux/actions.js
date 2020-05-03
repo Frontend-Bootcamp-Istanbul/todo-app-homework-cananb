@@ -7,6 +7,7 @@ export const addTodo = (content) => {
     }
 };
 
+
 export const toggleTodo = (id) => {
     return {
         type: TOGGLE_TODO,

@@ -9,7 +9,7 @@ class TodoApp extends React.Component{
 
     render(){
         return (
-            <div>
+            <div style={{background:"no-repeat,linear-gradient(#ff6161,#ff768c)",backgroundSize:"auto",height:"850px",fontFamily:"sans-serif"}}>
                 <TodoAppHeader/>
                 <TodoAppList />
             </div>
