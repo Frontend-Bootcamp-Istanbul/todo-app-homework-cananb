@@ -5,6 +5,7 @@ import {toggleTodo} from "../redux/actions";
 const TodoAppListItem = ({content, id, completed, toggleTodo}) => {
     return (
         <div style={{
+           // backgroundColor:"#fff",
             textDecoration: completed ? "line-through" : "initial"
         }} onClick={() => toggleTodo(id)}>
             {content}

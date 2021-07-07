@@ -13,7 +13,7 @@ class TodoAppAdd extends Component{
 
     render(){
         return (
-            <div>
+            <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <form onSubmit={(e) => {
                     /// formun default davranisi olan sayfa yenileme ve post etmeyi engelliyorum
                     e.preventDefault();
@@ -32,6 +32,7 @@ class TodoAppAdd extends Component{
                         }}
                     />
                     <button type="submit">Todo Ekle</button>
+                    
                 </form>
             </div>
         );
